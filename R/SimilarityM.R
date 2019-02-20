@@ -146,6 +146,7 @@ computeM <- function(D,X,lambda){
       }
     }
     # Update E
+    browser()
     QQ = X-X%*%Z+Y1/mu
     for (j in 1:n){
       if (sqrt(sum(QQ[,j]^2)) > lambda/mu){
