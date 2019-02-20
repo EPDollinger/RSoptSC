@@ -123,6 +123,7 @@ computeM <- function(D,X,lambda){
 
     # step 1: Update J
     mu = min(rho*mu,mumax)
+    browser()
     svd_data = svd(Z-Y3/mu, nu = nrow(Z-Y3/mu), nv = ncol(Z-Y3/mu))
     U = svd_data$u
     S = diag(svd_data$d, nrow=nrow(Z), ncol=ncol(Z))

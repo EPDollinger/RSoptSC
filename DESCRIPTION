@@ -25,7 +25,8 @@ Imports:
     circlize (>= 0.4.4),
     igraph (>= 1.2.2),
     RColorBrewer (>= 1.1-2),
-    tibble (>= 2.0.1)
+    tibble (>= 2.0.1),
+    corpcor (>= 1.6.9)
 Suggests: testthat,
     rmarkdown, knitr, ClusterR
 RoxygenNote: 6.1.1
